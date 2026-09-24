@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project status
 
-This is an RStudio project (`proov.Rproj`). Steps 1 (folder structure) and 2 (simulation) are done. `a1.qmd` holds the project brief rather than any analysis. It is not yet a git repository and has no R package setup (`DESCRIPTION`, `renv`) and no tests.
+This is an RStudio project (`proov.Rproj`). Steps 1 (folder structure) and 2 (simulation) are done. `a1.qmd` holds the project brief rather than any analysis. It is a git repository, pushed to the **public** repo https://github.com/ymaivali/proov (branch `main`), with one commit per brief step. Anything committed is published. There is no R package setup (`DESCRIPTION`, `renv`) and no tests.
+
+In Claude Code's sandbox, git writes to `.git` and `gh` calls fail with `Operation not permitted` or keychain/x509 errors, which can look like an invalid token. Those commands need to run outside the sandbox.
 
 ## Layout and data flow
 
