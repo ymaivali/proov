@@ -1,0 +1,23 @@
+# RStudio / R session files
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.Renviron
+Rplots.pdf
+
+# Quarto render by-products
+/.quarto/
+*_files/
+*.html
+_site/
+
+# Claude Code: personal settings stay local
+.claude/settings.local.json
+
+# macOS
+.DS_Store
+
+# Data: data/ IS committed. It is small (<1 MB), simulated (no real
+# patients) and needed to run the analysis. Exclude data that is large,
+# personal/identifiable, or re-derivable from code already in the repo.

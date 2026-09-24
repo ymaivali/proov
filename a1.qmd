@@ -1,0 +1,18 @@
+---
+title: "Untitled"
+format: html
+editor: visual
+---
+
+This is a pedagogical project, where students see how a Claude Code project is created. 
+
+1. Start by creating a typical folder structure.
+
+2. simulate data for a epi study where stroke patients survival depends on the speed of them reaching the hospital. Age and sex are confounders.
+
+3. Present an analysis plan
+
+4. Do the analysis
+
+5. Create a github repo and push commits to github
+
